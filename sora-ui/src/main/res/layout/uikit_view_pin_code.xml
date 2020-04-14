@@ -17,7 +17,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="1" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -25,7 +25,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="2" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -33,7 +33,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="3" />
 
     </LinearLayout>
@@ -49,7 +49,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="4" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -57,7 +57,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="5" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -65,7 +65,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="6" />
 
     </LinearLayout>
@@ -81,7 +81,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="7" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -89,7 +89,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="8" />
 
         <androidx.appcompat.widget.AppCompatButton
@@ -97,7 +97,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="9" />
 
     </LinearLayout>
@@ -113,8 +113,8 @@
             style="@style/Widget.Soramitsu.Button.PinCodeControlButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
-            android:src="@drawable/ic_fingerprint"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
+            android:src="@drawable/uikit_ic_fingerprint"
             android:visibility="invisible"
             tools:visibility="visible" />
 
@@ -123,7 +123,7 @@
             style="@style/Widget.Soramitsu.Button.PinCodeNumberButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
             android:text="0" />
 
         <androidx.appcompat.widget.AppCompatImageButton
@@ -131,9 +131,9 @@
             style="@style/Widget.Soramitsu.Button.PinCodeControlButton"
             android:layout_width="64dp"
             android:layout_height="64dp"
-            android:layout_margin="@dimen/pin_code_view_spacing"
-            android:src="@drawable/ic_delete"
-            android:tint="@color/lightRed"
+            android:layout_margin="@dimen/uikit_pin_code_view_spacing"
+            android:src="@drawable/uikit_ic_delete"
+            android:tint="@color/uikit_lightRed"
             android:visibility="invisible"
             tools:visibility="visible" />
 

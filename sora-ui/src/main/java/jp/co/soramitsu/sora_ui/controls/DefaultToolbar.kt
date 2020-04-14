@@ -5,8 +5,8 @@ import android.util.AttributeSet
 import android.view.View
 import androidx.appcompat.widget.Toolbar
 import jp.co.soramitsu.sora_ui.R
-import kotlinx.android.synthetic.main.tool_bar_default.view.homeImg
-import kotlinx.android.synthetic.main.tool_bar_default.view.titleTv
+import kotlinx.android.synthetic.main.uikit_tool_bar_default.view.homeImg
+import kotlinx.android.synthetic.main.uikit_tool_bar_default.view.titleTv
 
 class DefaultToolbar @JvmOverloads constructor(
     context: Context,
@@ -20,7 +20,7 @@ class DefaultToolbar @JvmOverloads constructor(
     }
 
     init {
-        View.inflate(context, R.layout.tool_bar_default, this)
+        View.inflate(context, R.layout.uikit_tool_bar_default, this)
 
         applyAttributes(attrs)
     }
@@ -33,8 +33,8 @@ class DefaultToolbar @JvmOverloads constructor(
 
             val mode = HomeMode.values()[typedArray.getInt(R.styleable.DefaultToolbar_homeMode, 0)]
             val homeIconRes = when (mode) {
-                HomeMode.BACK -> R.drawable.ic_arrow_back
-                HomeMode.CLOSE -> R.drawable.ic_close
+                HomeMode.BACK -> R.drawable.uikit_ic_arrow_back
+                HomeMode.CLOSE -> R.drawable.uikit_ic_close
             }
             homeImg.setImageResource(homeIconRes)
 

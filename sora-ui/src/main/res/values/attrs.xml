@@ -2,38 +2,38 @@
 <resources>
 
     <!--colors-->
-    <attr name="colorHeader" format="reference" />
-    <attr name="colorBody" format="reference" />
+    <attr name="uikit_colorHeader" format="reference" />
+    <attr name="uikit_colorBody" format="reference" />
     <!--colors-->
 
     <!--fonts-->
-    <attr name="fontSemiBold" format="reference" />
-    <attr name="fontBold" format="reference" />
-    <attr name="fontExtraBold" format="reference" />
-    <attr name="fontRegular" format="reference" />
+    <attr name="uikit_fontSemiBold" format="reference" />
+    <attr name="uikit_fontBold" format="reference" />
+    <attr name="uikit_fontExtraBold" format="reference" />
+    <attr name="uikit_fontRegular" format="reference" />
     <!--fonts-->
 
     <!--text sizes-->
-    <attr name="textSizeB2" format="reference" />
-    <attr name="textSizeB1" format="reference" />
-    <attr name="textSizeH4" format="reference" />
-    <attr name="textSizeH3" format="reference" />
-    <attr name="textSizeH2" format="reference" />
-    <attr name="textSizeH1" format="reference" />
+    <attr name="uikit_textSizeB2" format="reference" />
+    <attr name="uikit_textSizeB1" format="reference" />
+    <attr name="uikit_textSizeH4" format="reference" />
+    <attr name="uikit_textSizeH3" format="reference" />
+    <attr name="uikit_textSizeH2" format="reference" />
+    <attr name="uikit_textSizeH1" format="reference" />
     <!--text sizes-->
 
     <!--buttons-->
-    <attr name="buttonCornerRadius" format="reference" />
-    <attr name="buttonHorizontalPadding" format="reference" />
-    <attr name="buttonVerticalPadding" format="reference" />
+    <attr name="uikit_buttonCornerRadius" format="reference" />
+    <attr name="uikit_buttonHorizontalPadding" format="reference" />
+    <attr name="uikit_buttonVerticalPadding" format="reference" />
     <!--buttons-->
 
     <!--Pincode-->
-    <attr name="pinCodeButtonTextColor" format="reference" />
-    <attr name="pinCodeButtonBackground" format="reference" />
-    <attr name="pinCodeEmptyDotStrokeColor" format="reference" />
-    <attr name="pinCodeEmptyDotStrokeWidth" format="reference" />
-    <attr name="pinCodeButtonTextSize" format="reference" />
+    <attr name="uikit_pinCodeButtonTextColor" format="reference" />
+    <attr name="uikit_pinCodeButtonBackground" format="reference" />
+    <attr name="uikit_pinCodeEmptyDotStrokeColor" format="reference" />
+    <attr name="uikit_pinCodeEmptyDotStrokeWidth" format="reference" />
+    <attr name="uikit_pinCodeButtonTextSize" format="reference" />
     <!--Pincode-->
 
     <declare-styleable name="DefaultToolbar">

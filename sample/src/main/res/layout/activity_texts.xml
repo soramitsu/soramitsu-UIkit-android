@@ -64,6 +64,6 @@
         android:paddingTop="8dp"
         android:paddingBottom="8dp"
         android:text="Highlighted TextView"
-        android:textColor="@drawable/text_color_highlight_selector" />
+        android:textColor="@drawable/uikit_text_color_highlight_selector" />
 
 </LinearLayout>

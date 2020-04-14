@@ -3,8 +3,8 @@
     android:shape="oval">
 
     <stroke
-        android:width="?pinCodeEmptyDotStrokeWidth"
-        android:color="?pinCodeEmptyDotStrokeColor" />
+        android:width="?attr/uikit_pinCodeEmptyDotStrokeWidth"
+        android:color="?attr/uikit_pinCodeEmptyDotStrokeColor" />
 
     <solid android:color="@android:color/transparent" />
 

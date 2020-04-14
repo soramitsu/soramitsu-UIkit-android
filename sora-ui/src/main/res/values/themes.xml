@@ -6,41 +6,41 @@
         <item name="android:windowActionBarOverlay">true</item>
 
         <!--colors-->
-        <item name="colorPrimary">@color/lightRed</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/lightRed</item>
-        <item name="colorBody">@color/colorBody</item>
-        <item name="colorHeader">@color/colorHeader</item>
+        <item name="colorPrimary">@color/uikit_lightRed</item>
+        <item name="colorPrimaryDark">@color/uikit_colorPrimaryDark</item>
+        <item name="colorAccent">@color/uikit_lightRed</item>
+        <item name="uikit_colorBody">@color/uikit_colorBody</item>
+        <item name="uikit_colorHeader">@color/uikit_colorHeader</item>
         <!--colors-->
 
         <!--text sizes-->
-        <item name="textSizeB2">@dimen/text_size_b2</item>
-        <item name="textSizeB1">@dimen/text_size_b1</item>
-        <item name="textSizeH4">@dimen/text_size_h4</item>
-        <item name="textSizeH3">@dimen/text_size_h3</item>
-        <item name="textSizeH2">@dimen/text_size_h2</item>
-        <item name="textSizeH1">@dimen/text_size_h1</item>
+        <item name="uikit_textSizeB2">@dimen/uikit_text_size_b2</item>
+        <item name="uikit_textSizeB1">@dimen/uikit_text_size_b1</item>
+        <item name="uikit_textSizeH4">@dimen/uikit_text_size_h4</item>
+        <item name="uikit_textSizeH3">@dimen/uikit_text_size_h3</item>
+        <item name="uikit_textSizeH2">@dimen/uikit_text_size_h2</item>
+        <item name="uikit_textSizeH1">@dimen/uikit_text_size_h1</item>
         <!--text sizes-->
 
         <!--fonts-->
-        <item name="fontSemiBold">@font/sora_0417_semibold</item>
-        <item name="fontBold">@font/sora_0417_bold</item>
-        <item name="fontExtraBold">@font/sora_0417_extrabold</item>
-        <item name="fontRegular">@font/sora_0417_regular</item>
+        <item name="uikit_fontSemiBold">@font/sora_0417_semibold</item>
+        <item name="uikit_fontBold">@font/sora_0417_bold</item>
+        <item name="uikit_fontExtraBold">@font/sora_0417_extrabold</item>
+        <item name="uikit_fontRegular">@font/sora_0417_regular</item>
         <!--fonts-->
 
         <!--buttons-->
-        <item name="buttonCornerRadius">@dimen/button_corner_radius</item>
-        <item name="buttonHorizontalPadding">@dimen/button_horizontal_padding</item>
-        <item name="buttonVerticalPadding">@dimen/button_vertical_padding</item>
+        <item name="uikit_buttonCornerRadius">@dimen/uikit_button_corner_radius</item>
+        <item name="uikit_buttonHorizontalPadding">@dimen/uikit_button_horizontal_padding</item>
+        <item name="uikit_buttonVerticalPadding">@dimen/uikit_button_vertical_padding</item>
         <!--buttons-->
 
         <!--Pincode-->
-        <item name="pinCodeButtonTextColor">@android:color/black</item>
-        <item name="pinCodeButtonBackground">@android:color/white</item>
-        <item name="pinCodeEmptyDotStrokeColor">@color/colorPinProgressStrokeColor</item>
-        <item name="pinCodeEmptyDotStrokeWidth">@dimen/dot_stroke_width</item>
-        <item name="pinCodeButtonTextSize">@dimen/pin_code_button_text_size</item>
+        <item name="uikit_pinCodeButtonTextColor">@android:color/black</item>
+        <item name="uikit_pinCodeButtonBackground">@android:color/white</item>
+        <item name="uikit_pinCodeEmptyDotStrokeColor">@color/uikit_colorPinProgressStrokeColor</item>
+        <item name="uikit_pinCodeEmptyDotStrokeWidth">@dimen/uikit_dot_stroke_width</item>
+        <item name="uikit_pinCodeButtonTextSize">@dimen/uikit_pin_code_button_text_size</item>
         <!--Pincode-->
 
     </style>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="text_size_b2">12sp</dimen>
-    <dimen name="text_size_b1">14sp</dimen>
-    <dimen name="text_size_h4">15sp</dimen>
-    <dimen name="text_size_h3">16sp</dimen>
-    <dimen name="text_size_h2">18sp</dimen>
-    <dimen name="text_size_h1">30sp</dimen>
+    <dimen name="uikit_text_size_b2">12sp</dimen>
+    <dimen name="uikit_text_size_b1">14sp</dimen>
+    <dimen name="uikit_text_size_h4">15sp</dimen>
+    <dimen name="uikit_text_size_h3">16sp</dimen>
+    <dimen name="uikit_text_size_h2">18sp</dimen>
+    <dimen name="uikit_text_size_h1">30sp</dimen>
 
-    <dimen name="button_corner_radius">28dp</dimen>
-    <dimen name="button_horizontal_padding">28dp</dimen>
-    <dimen name="button_vertical_padding">8dp</dimen>
+    <dimen name="uikit_button_corner_radius">28dp</dimen>
+    <dimen name="uikit_button_horizontal_padding">28dp</dimen>
+    <dimen name="uikit_button_vertical_padding">8dp</dimen>
 
     <!--Pincode-->
-    <dimen name="pin_code_view_spacing">8dp</dimen>
-    <dimen name="dot_progress_view_dot_size_default">12dp</dimen>
-    <dimen name="dot_progress_view_dot_margin_default">12dp</dimen>
-    <dimen name="dot_stroke_width">2dp</dimen>
-    <dimen name="pin_code_button_text_size">25sp</dimen>
-    <dimen name="pin_code_button_elevation">2dp</dimen>
+    <dimen name="uikit_pin_code_view_spacing">8dp</dimen>
+    <dimen name="uikit_dot_progress_view_dot_size_default">12dp</dimen>
+    <dimen name="uikit_dot_progress_view_dot_margin_default">12dp</dimen>
+    <dimen name="uikit_dot_stroke_width">2dp</dimen>
+    <dimen name="uikit_pin_code_button_text_size">25sp</dimen>
+    <dimen name="uikit_pin_code_button_elevation">2dp</dimen>
     <!--Pincode-->
 
-    <dimen name="progress_bar_indeterminate_duration">1300</dimen>
+    <dimen name="uikit_progress_bar_indeterminate_duration">1300</dimen>
 </resources>
