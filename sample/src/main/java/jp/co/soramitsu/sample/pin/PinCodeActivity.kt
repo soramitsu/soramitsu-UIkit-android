@@ -5,7 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import jp.co.soramitsu.sample.R
-import kotlinx.android.synthetic.main.activity_pin_code.*
+import kotlinx.android.synthetic.main.activity_pin_code.pinCodeView
 
 class PinCodeActivity : AppCompatActivity() {
 
