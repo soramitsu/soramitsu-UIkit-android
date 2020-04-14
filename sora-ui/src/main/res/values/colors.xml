@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="uikit_colorPrimaryDark">#000000</color>
+    <color name="uikit_colorBody">#000000</color>
+    <color name="uikit_colorHeader">#000000</color>
+
+    <!--Pincode-->
+    <color name="uikit_colorPinProgressStrokeColor">#899f9e</color>
+    <!--Pincode-->
+
+    <color name="uikit_colorDivider">#8C999999</color>
+
+    <color name="uikit_colorHighlight">#027AD0</color>
+    <color name="uikit_colorHighlight_50">#80027AD0</color>
+    
+    <color name="uikit_lightRed">#d0021b</color>
+    <color name="uikit_cyan">#008F8F</color>
+    <color name="uikit_lightGreen">#00A167</color>
+
+</resources>

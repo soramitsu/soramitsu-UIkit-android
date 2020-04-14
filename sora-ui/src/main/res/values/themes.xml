@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Soramitsu.Default" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!--colors-->
+        <item name="colorPrimary">@color/uikit_lightRed</item>
+        <item name="colorPrimaryDark">@color/uikit_colorPrimaryDark</item>
+        <item name="colorAccent">@color/uikit_lightRed</item>
+        <item name="uikit_colorBody">@color/uikit_colorBody</item>
+        <item name="uikit_colorHeader">@color/uikit_colorHeader</item>
+        <!--colors-->
+
+        <!--text sizes-->
+        <item name="uikit_textSizeB2">@dimen/uikit_text_size_b2</item>
+        <item name="uikit_textSizeB1">@dimen/uikit_text_size_b1</item>
+        <item name="uikit_textSizeH4">@dimen/uikit_text_size_h4</item>
+        <item name="uikit_textSizeH3">@dimen/uikit_text_size_h3</item>
+        <item name="uikit_textSizeH2">@dimen/uikit_text_size_h2</item>
+        <item name="uikit_textSizeH1">@dimen/uikit_text_size_h1</item>
+        <!--text sizes-->
+
+        <!--fonts-->
+        <item name="uikit_fontSemiBold">@font/soramitsu_semibold</item>
+        <item name="uikit_fontBold">@font/soramitsu_bold</item>
+        <item name="uikit_fontExtraBold">@font/soramitsu_extrabold</item>
+        <item name="uikit_fontRegular">@font/soramitsu_regular</item>
+        <!--fonts-->
+
+        <!--buttons-->
+        <item name="uikit_buttonCornerRadius">@dimen/uikit_button_corner_radius</item>
+        <item name="uikit_buttonHorizontalPadding">@dimen/uikit_button_horizontal_padding</item>
+        <item name="uikit_buttonVerticalPadding">@dimen/uikit_button_vertical_padding</item>
+        <!--buttons-->
+
+        <!--Pincode-->
+        <item name="uikit_pinCodeButtonTextColor">@android:color/black</item>
+        <item name="uikit_pinCodeButtonBackground">@android:color/white</item>
+        <item name="uikit_pinCodeEmptyDotStrokeColor">@color/uikit_colorPinProgressStrokeColor</item>
+        <item name="uikit_pinCodeEmptyDotStrokeWidth">@dimen/uikit_dot_stroke_width</item>
+        <item name="uikit_pinCodeButtonTextSize">@dimen/uikit_pin_code_button_text_size</item>
+        <!--Pincode-->
+
+    </style>
+
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--colors-->
+    <attr name="uikit_colorHeader" format="reference" />
+    <attr name="uikit_colorBody" format="reference" />
+    <!--colors-->
+
+    <!--fonts-->
+    <attr name="uikit_fontSemiBold" format="reference" />
+    <attr name="uikit_fontBold" format="reference" />
+    <attr name="uikit_fontExtraBold" format="reference" />
+    <attr name="uikit_fontRegular" format="reference" />
+    <!--fonts-->
+
+    <!--text sizes-->
+    <attr name="uikit_textSizeB2" format="reference" />
+    <attr name="uikit_textSizeB1" format="reference" />
+    <attr name="uikit_textSizeH4" format="reference" />
+    <attr name="uikit_textSizeH3" format="reference" />
+    <attr name="uikit_textSizeH2" format="reference" />
+    <attr name="uikit_textSizeH1" format="reference" />
+    <!--text sizes-->
+
+    <!--buttons-->
+    <attr name="uikit_buttonCornerRadius" format="reference" />
+    <attr name="uikit_buttonHorizontalPadding" format="reference" />
+    <attr name="uikit_buttonVerticalPadding" format="reference" />
+    <!--buttons-->
+
+    <!--Pincode-->
+    <attr name="uikit_pinCodeButtonTextColor" format="reference" />
+    <attr name="uikit_pinCodeButtonBackground" format="reference" />
+    <attr name="uikit_pinCodeEmptyDotStrokeColor" format="reference" />
+    <attr name="uikit_pinCodeEmptyDotStrokeWidth" format="reference" />
+    <attr name="uikit_pinCodeButtonTextSize" format="reference" />
+    <!--Pincode-->
+
+    <declare-styleable name="DefaultToolbar">
+        <attr name="title" format="string" />
+        <attr name="homeMode" format="enum">
+            <enum name="back" value="0" />
+            <enum name="close" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

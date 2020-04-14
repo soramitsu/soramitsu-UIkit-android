@@ -1,0 +1,2 @@
+include ':sora-ui', ':sample'
+rootProject.name='uikit-android'
