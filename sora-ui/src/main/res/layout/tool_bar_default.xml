@@ -18,11 +18,11 @@
             android:layout_height="wrap_content"
             android:background="?selectableItemBackground"
             android:padding="16dp"
+            android:tint="?colorAccent"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/ic_arrow_back"
-            android:tint="?colorAccent"/>
+            app:srcCompat="@drawable/ic_arrow_back" />
 
         <TextView
             android:id="@+id/titleTv"
