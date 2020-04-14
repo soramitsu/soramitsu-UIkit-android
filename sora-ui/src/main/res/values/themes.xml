@@ -23,10 +23,10 @@
         <!--text sizes-->
 
         <!--fonts-->
-        <item name="uikit_fontSemiBold">@font/sora_0417_semibold</item>
-        <item name="uikit_fontBold">@font/sora_0417_bold</item>
-        <item name="uikit_fontExtraBold">@font/sora_0417_extrabold</item>
-        <item name="uikit_fontRegular">@font/sora_0417_regular</item>
+        <item name="uikit_fontSemiBold">@font/soramitsu_semibold</item>
+        <item name="uikit_fontBold">@font/soramitsu_bold</item>
+        <item name="uikit_fontExtraBold">@font/soramitsu_extrabold</item>
+        <item name="uikit_fontRegular">@font/soramitsu_regular</item>
         <!--fonts-->
 
         <!--buttons-->
