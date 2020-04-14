@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <jp.co.soramitsu.sora_ui.controls.DefaultToolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        app:title="Font styles" />
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Header1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Header 1"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Header2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Header 2"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Header3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Header 3"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Header4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Header 4"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Body1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Body 1"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Body2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Soramitsu Body 2"
+        android:padding="8dp"/>
+
+    <TextView
+        style="@style/TextAppearance.Soramitsu.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:text="Highlighted TextView"
+        android:textColor="@drawable/text_color_highlight_selector"
+        android:padding="8dp"/>
+
+</LinearLayout>

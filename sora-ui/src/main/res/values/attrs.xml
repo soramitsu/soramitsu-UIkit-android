@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--colors-->
+    <attr name="colorHeader" format="reference" />
+    <attr name="colorBody" format="reference" />
+    <!--colors-->
+
+    <!--fonts-->
+    <attr name="fontSemiBold" format="reference" />
+    <attr name="fontBold" format="reference" />
+    <attr name="fontExtraBold" format="reference" />
+    <attr name="fontRegular" format="reference" />
+    <!--fonts-->
+
+    <!--text sizes-->
+    <attr name="textSizeB2" format="reference" />
+    <attr name="textSizeB1" format="reference" />
+    <attr name="textSizeH4" format="reference" />
+    <attr name="textSizeH3" format="reference" />
+    <attr name="textSizeH2" format="reference" />
+    <attr name="textSizeH1" format="reference" />
+    <!--text sizes-->
+
+    <!--buttons-->
+    <attr name="buttonCornerRadius" format="reference" />
+    <attr name="buttonHorizontalPadding" format="reference" />
+    <attr name="buttonVerticalPadding" format="reference" />
+    <!--buttons-->
+
+    <!--Pincode-->
+    <attr name="pinCodeButtonTextColor" format="reference" />
+    <attr name="pinCodeButtonBackground" format="reference" />
+    <attr name="pinCodeEmptyDotStrokeColor" format="reference" />
+    <attr name="pinCodeEmptyDotStrokeWidth" format="reference" />
+    <attr name="pinCodeButtonTextSize" format="reference" />
+    <!--Pincode-->
+
+    <declare-styleable name="DefaultToolbar">
+        <attr name="title" format="string" />
+        <attr name="homeMode" format="enum">
+            <enum name="back" value="0" />
+            <enum name="close" value="1" />
+        </attr>
+    </declare-styleable>
+
+</resources>

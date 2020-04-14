@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#000000</color>
+    <color name="colorBody">#000000</color>
+    <color name="colorHeader">#000000</color>
+
+    <!--Pincode-->
+    <color name="colorPinProgressStrokeColor">#899f9e</color>
+    <!--Pincode-->
+
+    <color name="colorDivider">#8C999999</color>
+
+    <color name="colorHighlight">#027AD0</color>
+    <color name="colorHighlight_50">#80027AD0</color>
+    
+    <color name="lightRed">#d0021b</color>
+    <color name="cyan">#008F8F</color>
+    <color name="lightGreen">#00A167</color>
+
+</resources>

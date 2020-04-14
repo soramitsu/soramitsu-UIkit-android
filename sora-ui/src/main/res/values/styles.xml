@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Font styles-->
+
+    <style name="TextAppearance.Soramitsu.Header" parent="TextAppearance.AppCompat.Title">
+        <item name="android:fontFamily">?fontBold</item>
+        <item name="android:textColor">?colorHeader</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Header1" parent="TextAppearance.Soramitsu.Header">
+        <item name="android:textSize">?textSizeH1</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Header2" parent="TextAppearance.Soramitsu.Header">
+        <item name="android:textSize">?textSizeH2</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Header3" parent="TextAppearance.Soramitsu.Header">
+        <item name="android:textSize">?textSizeH3</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Header4" parent="TextAppearance.Soramitsu.Header">
+        <item name="android:textSize">?textSizeH4</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Body" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:fontFamily">?fontRegular</item>
+        <item name="android:textColor">?colorBody</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Body1" parent="TextAppearance.Soramitsu.Body">
+        <item name="android:textSize">?textSizeB1</item>
+    </style>
+
+    <style name="TextAppearance.Soramitsu.Body2" parent="TextAppearance.Soramitsu.Body">
+        <item name="android:textSize">?textSizeB2</item>
+    </style>
+
+    <!--Font styles-->
+
+    <!-- Buttons -->
+
+    <style name="Widget.Soramitsu.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">?colorAccent</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:textSize">?textSizeB1</item>
+        <item name="android:fontFamily">?fontBold</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="cornerRadius">?buttonCornerRadius</item>
+        <item name="android:paddingTop">?buttonVerticalPadding</item>
+        <item name="android:paddingBottom">?buttonVerticalPadding</item>
+        <item name="android:paddingStart">?buttonHorizontalPadding</item>
+        <item name="android:paddingEnd">?buttonHorizontalPadding</item>
+    </style>
+
+    <style name="Widget.Soramitsu.Button.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textColor">?colorAccent</item>
+        <item name="strokeColor">@color/colorDivider</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="textAllCaps">false</item>
+        <item name="android:fontFamily">?fontBold</item>
+        <item name="android:textSize">?textSizeB1</item>
+        <item name="cornerRadius">?buttonCornerRadius</item>
+        <item name="android:paddingTop">?buttonVerticalPadding</item>
+        <item name="android:paddingBottom">?buttonVerticalPadding</item>
+        <item name="android:paddingStart">?buttonHorizontalPadding</item>
+        <item name="android:paddingEnd">?buttonHorizontalPadding</item>
+    </style>
+
+    <style name="Widget.Soramitsu.Button.PinCodeNumberButton" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">?pinCodeButtonTextColor</item>
+        <item name="android:textSize">?pinCodeButtonTextSize</item>
+        <item name="android:background">@drawable/bg_pin_code_button</item>
+        <item name="android:textAppearance">@style/TextAppearance.Soramitsu.Body2</item>
+        <item name="android:fontFamily">?fontRegular</item>
+    </style>
+
+    <style name="Widget.Soramitsu.Button.PinCodeControlButton" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/bg_pin_code_button</item>
+        <item name="android:scaleType">centerInside</item>
+        <item name="android:elevation">2dp</item>
+    </style>
+
+    <!-- Buttons -->
+
+    <!-- Progress Bar -->
+    <style name="Widget.Soramitsu.ProgressBar" parent="Widget.AppCompat.ProgressBar">
+        <item name="android:indeterminate">true</item>
+        <item name="android:indeterminateDrawable">@anim/progress_rotate</item>
+        <item name="android:indeterminateDuration">1300</item>
+    </style>
+    <!-- Progress Bar -->
+
+</resources>

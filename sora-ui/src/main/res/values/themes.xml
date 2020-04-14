@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Soramitsu.Default" parent="Theme.MaterialComponents.Light.NoActionBar">
+
+        <item name="android:windowActionBarOverlay">true</item>
+
+        <!--colors-->
+        <item name="colorPrimary">@color/lightRed</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/lightRed</item>
+        <item name="colorBody">@color/colorBody</item>
+        <item name="colorHeader">@color/colorHeader</item>
+        <!--colors-->
+
+        <!--text sizes-->
+        <item name="textSizeB2">@dimen/text_size_b2</item>
+        <item name="textSizeB1">@dimen/text_size_b1</item>
+        <item name="textSizeH4">@dimen/text_size_h4</item>
+        <item name="textSizeH3">@dimen/text_size_h3</item>
+        <item name="textSizeH2">@dimen/text_size_h2</item>
+        <item name="textSizeH1">@dimen/text_size_h1</item>
+        <!--text sizes-->
+
+        <!--fonts-->
+        <item name="fontSemiBold">@font/sora_0417_semibold</item>
+        <item name="fontBold">@font/sora_0417_bold</item>
+        <item name="fontExtraBold">@font/sora_0417_extrabold</item>
+        <item name="fontRegular">@font/sora_0417_regular</item>
+        <!--fonts-->
+
+        <!--buttons-->
+        <item name="buttonCornerRadius">@dimen/button_corner_radius</item>
+        <item name="buttonHorizontalPadding">@dimen/button_horizontal_padding</item>
+        <item name="buttonVerticalPadding">@dimen/button_vertical_padding</item>
+        <!--buttons-->
+
+        <!--Pincode-->
+        <item name="pinCodeButtonTextColor">@android:color/black</item>
+        <item name="pinCodeButtonBackground">@android:color/white</item>
+        <item name="pinCodeEmptyDotStrokeColor">@color/colorPinProgressStrokeColor</item>
+        <item name="pinCodeEmptyDotStrokeWidth">@dimen/dot_stroke_width</item>
+        <item name="pinCodeButtonTextSize">@dimen/pin_code_button_text_size</item>
+        <!--Pincode-->
+
+    </style>
+
+</resources>

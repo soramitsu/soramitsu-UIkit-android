@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Pincode-->
+    <dimen name="pin_code_view_spacing">12dp</dimen>
+    <!--Pincode-->
+
+</resources>
